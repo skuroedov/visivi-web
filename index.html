@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Sergey Kuroedov"/>
+		<title>Visivi</title>
+		<style>
+			:root {
+				--primary: black;
+				--secondary: white;
+			}
+		</style>
+		<link rel="stylesheet" href="css/elements.css">
+		<link rel="stylesheet" href="css/generics.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<!-- <link rel="stylesheet" href="debug.css"> -->
+		<script src="colorschemes.js"></script>
+	</head>
+	<body>
+		<div role="menubar" id="navbar">
+			<div class="nav-item" role="menuitem">
+				<span class="circle circle-black-white" onclick="changeScheme('black', 'white')">
+					<span class="sr-only">Černobílé</span>
+				</span>
+			</div>
+			<div class="nav-item" role="menuitem">
+				<span class="circle circle-white-black" onclick="changeScheme('white', 'black')">
+					<span class="sr-only">Bíločerné</span>
+				</span>
+			</div>
+			<div class="nav-item" role="menuitem">
+				<span class="circle circle-yellow-black" onclick="changeScheme('yellow', 'black')">
+					<span class="sr-only">Žlutočerné</span>
+				</span>
+			</div>
+			<div class="nav-item" role="menuitem">
+				<span class="circle circle-blue-white" onclick="changeScheme('blue', 'white')">
+					<span class="sr-only">Modrobílé</span>
+				</span>
+			</div>
+		</div>
+		<main class="center-text vertical-center">
+			<div>
+				<div role="img" aria-label="Logo">
+					<svg
+							xmlns:dc="http://purl.org/dc/elements/1.1/"
+							xmlns:cc="http://creativecommons.org/ns#"
+							xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+							xmlns:svg="http://www.w3.org/2000/svg"
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+							xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+							width="207.20279mm"
+							height="128.20261mm"
+							viewBox="0 0 207.20279 128.20261"
+							version="1.1"
+							id="svg8"
+							inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+							sodipodi:docname="visvivi.svg">
+						<title>Logo</title>
+						<defs
+								id="defs2"/>
+						<sodipodi:namedview
+								id="base"
+								pagecolor="#ffffff"
+								bordercolor="#666666"
+								borderopacity="1.0"
+								inkscape:pageopacity="0.0"
+								inkscape:pageshadow="2"
+								inkscape:zoom="0.96803582"
+								inkscape:cx="127.81062"
+								inkscape:cy="391.4075"
+								inkscape:document-units="mm"
+								inkscape:current-layer="g939"
+								inkscape:document-rotation="0"
+								showgrid="false"
+								inkscape:window-width="1912"
+								inkscape:window-height="1045"
+								inkscape:window-x="4"
+								inkscape:window-y="31"
+								inkscape:window-maximized="0"
+								inkscape:pagecheckerboard="false"
+								fit-margin-top="0"
+								fit-margin-left="0"
+								fit-margin-right="0"
+								fit-margin-bottom="0"/>
+						<metadata
+								id="metadata5">
+							<rdf:RDF>
+								<cc:Work
+										rdf:about="">
+									<dc:format>image/svg+xml</dc:format>
+									<dc:type
+											rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+									<dc:title/>
+								</cc:Work>
+							</rdf:RDF>
+						</metadata>
+						<g
+								inkscape:label="Layer 1"
+								inkscape:groupmode="layer"
+								id="layer1"
+								transform="translate(-1.1676656,-1.5714066)">
+							<g
+									id="g939"
+									transform="matrix(4.2801002,0,0,4.2801002,-185.97737,-419.35684)">
+								<path
+										style="fill:var(--secondary);stroke:var(--secondary);stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+										d="m 91.968083,115.67476 c 0,0 -6.99467,5.83622 -13.02096,7.8697 -7.69894,2.59789 -16.1287,1.47855 -16.1287,1.47855 l 3.33866,-3.31006 c 0,0 6.82192,0.13123 10.30319,-1.16577 5.84678,-2.17831 9.13711,-5.58515 9.13711,-5.58515 0,0 -2.92331,-6.04328 -7.64867,-7.70134 -3.61441,-1.26824 -1.61254,-1.96119 -1.61254,-1.96119 0,0 3.26231,-5.16237 5.01894,-6.821025 0.46739,-0.11529 -0.64854,3.543975 0.5714,3.994225 1.40692,0.51926 0.14387,2.6428 0.76225,2.97274 5.38339,2.87231 9.27932,10.22932 9.27932,10.22932 z"
+										id="path10"
+										sodipodi:nodetypes="csccscsccssc"/>
+								<path
+										style="fill:var(--secondary);stroke:var(--secondary);stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+										d="m 43.891553,110.96925 c 0,0 6.994678,-5.83622 13.020965,-7.8697 7.698937,-2.59789 16.128694,-1.47855 16.128694,-1.47855 l -3.338659,3.31006 c 0,0 -6.821914,-0.13123 -10.303182,1.16577 -5.846786,2.17831 -9.137113,5.58515 -9.137113,5.58515 0,0 2.923307,6.04328 7.648668,7.70134 3.614413,1.26824 1.612543,1.96119 1.612543,1.96119 0,0 -3.262313,5.16237 -5.018946,6.82103 -0.467384,0.11529 0.648544,-3.54398 -0.571391,-3.99423 -1.406925,-0.51926 -0.143878,-2.6428 -0.762256,-2.97274 -5.383389,-2.87231 -9.279323,-10.22932 -9.279323,-10.22932 z"
+										id="path10-5"
+										sodipodi:nodetypes="csccscsccssc"/>
+								<path
+										id="path92"
+										style="fill:var(--secondary);fill-opacity:1;stroke:none;stroke-width:0.35026;stroke-opacity:1"
+										d="m 68.056641,107.82617 c -2.74159,0.0711 -5.523302,2.44896 -5.606065,5.18991 -0.142998,2.10181 0.71058,4.03595 2.521492,5.06789 -0.07552,-0.40113 3.069105,-1.17652 2.047048,-3.52577 -0.309185,-0.71068 2.533944,-1.57301 1.937067,-2.49368 -0.982324,-1.51521 2.482634,-3.46427 2.482634,-3.46427 -1.071006,-0.75944 -2.057585,-0.85453 -3.382176,-0.77408 z"
+										sodipodi:nodetypes="cccsscc"/>
+							</g>
+						</g>
+					</svg>
+				</div>
+				<h1>Visivi</h1>
+				<p>
+					Jednoduché rozhraní pro nevidomé a zrakově postižené
+				</p>
+				<button onclick="window.location.href='#cilova'">Zjistit více</button>
+			</div>
+		</main>
+		<section class="vertical-center" id="cilova">
+			<article class="col-3">
+				<h2>Pro koho Visivi je?</h2>
+				<p>
+					Na celém světě je evidovaných 285 miliónů zrakově postižených a 39 miliónů nevidomých. V České
+					republice je odhadem 83 tisíc těžce zrakově postižených a 19 tisíc nevidomých. To činí přibližně 6 %
+					populace českého obyvatelstva. Takový podíl nevidomých a zrakově postižených opravdu není
+					zanedbatelný.
+				</p>
+				<p>
+					Největší bariérou mezi počítačem a zrakově postiženými je právě jejich postižení. Nemohou nebo
+					částečně nemohou používat zrak, který je v dnešní době pro práci s počítačem ve výchozím nastavení
+					nutný. Moderní systémy poskytují většinu výstupu skrze monitor a ovládání je převážně myší, kterou
+					bez zraku nemůžeme ovládat.
+				</p>
+				<p>
+					Tento projekt je tedy určen pro nevidomé a i zrakově postižené, kteří by rádi používali počítač, ale
+					není to pro ně zcela jednoduché. Cílem Visivi je poskytnout cílovým uživatelům funkce, kterou
+					bohužel nemají.
+				</p>
+			</article>
+		</section>
+		<section class="vertical-center">
+			<article class="col-3">
+				<h2>Funkce</h2>
+				<p>
+					Veškerá funkcionalita spočívá v poskytnutí uživatelského rozhraní na počítači. Na systému OS Windows
+					to není zcela běžné, ale uživatelé linuxových distribucí mají na výběr mezi několika uživatelskými
+					přostředími, které se mohou lišit úplně vším.
+				</p>
+				<p>
+					Visivi je právě uživatelské prostředí a plně nahrazuje to původní. Při jeho používání není nutné
+					používat systémové komponenty jako např. Windows Taskbar nebo čtečku obrazovky.
+				</p>
+				<p>
+					Celé rozhraní je ozvučené pomocí technologie Text-To-Speech (TTS), konkrétně pomocí knihovny ESpeak.
+					Ozvučení funguje i bez jakékoliv čtečky obrazovky a je provedeno přímo v aplikaci. Předčíteč se
+					spouští až při spuštění jiné aplikace, kterou již nemůžeme kontrolovat.
+				</p>
+				<p>
+					Aktuálně projekt plní pouze pár uživatelských funkcí a to základní nastavení a spouštění dalších
+					aplikací.
+				</p>
+			</article>
+		</section>
+		<section>
+			<h2>Hlavní pilíře Visivi</h2>
+			<div class="row">
+				<article class="col-3">
+					<h3>Jednoduchost</h3>
+					<p>
+						Existují nástroje, které poskytují uživatelům přístupnost. Takových nástrojů je spousta, ale
+						většinou jsou velmi složité. Používají je převážně pokročilejší uživatelé a je nutné školení.
+						Při tvorbě Visivi se kladl vělký důraz na to, aby bylo vše co nejjednodušší. Tím je zabráněno
+						tomu, aby se člověk ztrácel a nechápal, co vůbec dělá.
+					</p>
+				</article>
+				<article class="col-3">
+					<h3>Intuitivní ovládání</h3>
+					<p>
+						Veškeré ovládání je uzpůsobeno tak, aby bylo co nejvíce intuitivní a uživatel nemusel používat
+						žádný návod nebo mít školení. Klávesové zkratky jsou uzpůsobené tak, aby v aplikaci plnily právě
+						takovou funkci, na jakou si uživatelé jsou zvyklí v jiných programech.
+					</p>
+				</article>
+				<article class="col-3">
+					<h3>Uživatelský komfort</h3>
+					<p>
+						Třetí nejdůležitejěí věcí, na kterou jsme kladli důraz, je uživatelský komfort. Předchozí dva
+						pilíře tuto vlastnost přímo implikují. Je pro nás velmi důležité, aby uživatel dokázal Visivi
+						používat přirozeně, nebál se toho a nezažíval stresové situace, které moho vzniknout při
+						používání něčeho komplexnějšího.
+					</p>
+				</article>
+			</div>
+		</section>
+		<section class="vertical-center">
+			<article class="col-3">
+				<h2>O projektu</h2>
+				<p>
+					Projekt vznikl jako dlouhodobá maturitní práce studenta Střední průmyslové školy elektrotechnické V
+					Úžlabině 320, Sergeye Kuroedova.
+				</p>
+				<p>
+					V projektu byly použity moderní webové technologie v kombinací desktopovou aplikací, jako například
+					NodeJS, TypeScript, React a Electron. Celý zdrojový kód lze nalézt <a
+						href="https://github.com/skuroedov/visivi-js">zde</a>.
+				</p>
+			</article>
+		</section>
+		<section>
+			<article class="col-3">
+				<h2>Ke stažení</h2>
+				<button onclick="window.location.href='https://github.com/skuroedov/visivi-js/releases/download/1.0/visivi-js_1.0.0_amd64.deb'">DEB balíček</button>
+			</article>
+		</section>
+	</body>
+</html>
