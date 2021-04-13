@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+article {
+	padding: 2em;
+}
+
+body {
+	margin: 0;
+	background-color: var(--primary);
+	color: var(--secondary);
+	line-height: 1.4em;
+}
+
+button {
+	background: none;
+	border: 3px solid var(--secondary);
+	border-radius: 5px;
+	padding: 5px;
+	color: var(--secondary);
+	font-weight: bold;
+}
+
+button:hover {
+	background: var(--secondary);
+	color: var(--primary);
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	padding: 0.2em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+main,
+section {
+	left: 0;
+	right: 0;
+	padding: 2.5em;
+}
+
+main {
+	height: 100vh;
+	max-height: 100vh;
+}
