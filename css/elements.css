@@ -7,6 +7,10 @@ article {
 	padding: 2em;
 }
 
+article p {
+	text-align: justify;
+}
+
 body {
 	margin: 0;
 	background-color: var(--primary);
@@ -40,6 +44,14 @@ h1, h2, h3 {
 p {
 	padding: 0.2em;
 	font-family: 'Open Sans', sans-serif;
+}
+
+pre {
+	border: 1px solid var(--secondary);
+	border-radius: 0.5em;
+	box-sizing: border-box;
+	overflow: auto;
+	padding: 0.3em;
 }
 
 main,
