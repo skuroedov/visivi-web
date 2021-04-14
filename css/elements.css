@@ -3,6 +3,15 @@
 	max-width: 100%;
 }
 
+a {
+	color: var(--secondary);
+}
+
+a:hover {
+	background: var(--secondary);
+	color: var(--primary);
+}
+
 article {
 	padding: 2em;
 }
